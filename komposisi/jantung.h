@@ -3,11 +3,13 @@
 
 using namespace std;
 
-class antung {
+class jantung {
 public:
-     jantung << "jantung dihidupkan\n";
+     jantung() {
+     cout << "jantung dihidupkan\n";
 }
 ~jantung() {
     cout << "jantung dimatikan\n";
+}
 };
 #endif
